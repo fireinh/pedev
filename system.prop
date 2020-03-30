@@ -6,3 +6,6 @@ ro.recovery.ui.margin_height=87
 
 # Graphics
 ro.surface_flinger.has_HDR_display=true
+
+# Face Unlock
+ro.face.moto_unlock_service.cam_id=5
