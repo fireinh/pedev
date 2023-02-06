@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
+PRODUCT_PACKAGES += \
     BerylliumCarrierConfigOverlay \
     BerylliumFaceUnlockServiceOverlay \
     BerylliumFrameworksOverlay \
