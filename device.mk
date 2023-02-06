@@ -22,11 +22,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_PACKAGES += \
-    BerylliumNoCutoutOverlay
+    BerylliumCarrierConfigOverlay \
+    BerylliumFaceUnlockServiceOverlay \
+    BerylliumFrameworksOverlay \
+    BerylliumNoCutoutOverlay \
+    BerylliumSettingsProvidersOverlay \
+    BerylliumSystemUIOverlay \
+    TargetWifiOverlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -95,7 +97,3 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# WiFi
-PRODUCT_PACKAGES += \
-    TargetWifiOverlay
